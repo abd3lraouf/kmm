@@ -1,0 +1,40 @@
+build:
+  - .github/**/*
+
+configuration:
+  - gradlePlugin/blueprint-configuration/**/*
+  - gradlePlugin/blueprint-tools/**/*
+
+dependencies:
+  - gradlePlugin/blueprint-dependency/**/*
+
+documentation:
+  - docs/**/*
+  - CHANGELOG.md
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - README.md
+  - SECURITY.md
+
+# App
+app-android:
+  - app-android/**/*
+app-ios:
+  - app-ios/**/*
+app-desktop:
+  - app-desktop/**/*
+app-web:
+  - app-web/**/*
+
+# Feature
+feature:
+  - feature/**/*
+
+# Common
+common:
+  - common/**/*
+
+# Library
+library:
+  - library/**/*
